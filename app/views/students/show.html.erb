@@ -5,3 +5,12 @@
 <%= link_to "Edit Student", edit_student_path(@student) %>
 
 <%= link_to "Delete Student", student_path(@student), method: :delete %>
+
+<% @student.addresses.each do |address| %>
+<%= address.description %>
+<%= address.street_address %>
+<%= address.city %>
+<%= address.state %>
+Zip: <%= address.zip_code %>
+
+<% end %>

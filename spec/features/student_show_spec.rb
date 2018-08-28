@@ -26,5 +26,24 @@ describe 'Student Show' do
       expect(page).to have_content(student_2.name)
       expect(page).to_not have_content(student_1.name)
     end
+    it 'can show all addresses associated with the student' do
+      student = Student.create(name: "Jessica Jones")
+
+      address_1 = student.addresses.create(description: "home", street_address: "123 happy drive", city: "Denver", state: "CO", zip_code: 10101)
+      address_2 = student.addresses.create(description: "mom", street_address: "123 sleepy blv", city: "Littleton", state: "CO", zip_code: 20202)
+
+      visit student_path(student)
+
+      expect(page).to have_content(address_1.description)
+      expect(page).to have_content(address_1.street_address)
+      expect(page).to have_content(address_1.city)
+      expect(page).to have_content(address_1.state)
+      expect(page).to have_content("Zip: #{address_1.zip_code}")
+      expect(page).to have_content(address_2.description)
+      expect(page).to have_content(address_2.street_address)
+      expect(page).to have_content(address_2.city)
+      expect(page).to have_content(address_2.state)
+      expect(page).to have_content("Zip: #{address_2.zip_code}")
+    end
   end
 end
