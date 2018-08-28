@@ -204,6 +204,19 @@
         1,
         1,
         null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
         null,
         null
       ],
@@ -249,6 +262,9 @@
         2,
         2,
         null,
+        1,
+        2,
+        null,
         null
       ],
       "/Users/harperbellows/turing/2module/challenges/enrollment/app/models/address.rb": [
@@ -257,6 +273,8 @@
         1,
         1,
         1,
+        1,
+        null,
         1,
         null
       ],
@@ -272,9 +290,13 @@
         1,
         2,
         null,
+        1,
+        2,
+        null,
         null
       ],
       "/Users/harperbellows/turing/2module/challenges/enrollment/app/models/student.rb": [
+        1,
         1,
         1,
         null
@@ -284,7 +306,7 @@
         1,
         null,
         1,
-        3,
+        4,
         null,
         null,
         1,
@@ -300,6 +322,12 @@
         null,
         1,
         null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
         null,
         1,
         null,
@@ -317,7 +345,7 @@
         null,
         null,
         1,
-        6,
+        8,
         null,
         null
       ],
@@ -327,6 +355,6 @@
         null
       ]
     },
-    "timestamp": 1535491965
+    "timestamp": 1535492546
   }
 }
