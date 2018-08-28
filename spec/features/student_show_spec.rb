@@ -11,6 +11,7 @@ describe 'Student Show' do
       click_link student_1.name
 
       expect(page).to have_content(student_1.name)
+      expect(page).to_not have_content(student_2.name)
     end
   end
 end
