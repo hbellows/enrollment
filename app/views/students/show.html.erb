@@ -3,3 +3,5 @@
 <%= link_to "Back to Students List", students_path %>
 
 <%= link_to "Edit Student", edit_student_path(@student) %>
+
+<%= link_to "Delete Student", student_path(@student), method: :delete %>
