@@ -1,0 +1,207 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/harperbellows/turing/2module/challenges/enrollment/config/environment.rb": [
+        null,
+        1,
+        null,
+        null,
+        1
+      ],
+      "/Users/harperbellows/turing/2module/challenges/enrollment/config/application.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/harperbellows/turing/2module/challenges/enrollment/config/boot.rb": [
+        1,
+        null,
+        1
+      ],
+      "/Users/harperbellows/turing/2module/challenges/enrollment/config/environments/test.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/harperbellows/turing/2module/challenges/enrollment/config/initializers/application_controller_renderer.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/harperbellows/turing/2module/challenges/enrollment/config/initializers/assets.rb": [
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/harperbellows/turing/2module/challenges/enrollment/config/initializers/backtrace_silencers.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/harperbellows/turing/2module/challenges/enrollment/config/initializers/cookies_serializer.rb": [
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/harperbellows/turing/2module/challenges/enrollment/config/initializers/filter_parameter_logging.rb": [
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/harperbellows/turing/2module/challenges/enrollment/config/initializers/inflections.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/harperbellows/turing/2module/challenges/enrollment/config/initializers/mime_types.rb": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/harperbellows/turing/2module/challenges/enrollment/config/initializers/wrap_parameters.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/harperbellows/turing/2module/challenges/enrollment/config/routes.rb": [
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/harperbellows/turing/2module/challenges/enrollment/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/harperbellows/turing/2module/challenges/enrollment/app/models/student.rb": [
+        1,
+        null,
+        null
+      ],
+      "/Users/harperbellows/turing/2module/challenges/enrollment/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/harperbellows/turing/2module/challenges/enrollment/app/controllers/students_controller.rb": [
+
+      ]
+    },
+    "timestamp": 1535484333
+  }
+}
