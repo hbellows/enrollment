@@ -188,9 +188,19 @@
         1,
         null
       ],
-      "/Users/harperbellows/turing/2module/challenges/enrollment/app/models/student.rb": [
+      "/Users/harperbellows/turing/2module/challenges/enrollment/spec/models/student_spec.rb": [
         1,
         null,
+        null,
+        1,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/Users/harperbellows/turing/2module/challenges/enrollment/app/models/student.rb": [
+        1,
+        1,
         null
       ],
       "/Users/harperbellows/turing/2module/challenges/enrollment/app/models/application_record.rb": [
@@ -199,9 +209,20 @@
         null
       ],
       "/Users/harperbellows/turing/2module/challenges/enrollment/app/controllers/students_controller.rb": [
-
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/harperbellows/turing/2module/challenges/enrollment/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1535484333
+    "timestamp": 1535485054
   }
 }
