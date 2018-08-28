@@ -1,5 +1,5 @@
 class StudentsController < ApplicationController
-  before_action :set_student, only: [:edit, :show, :update]
+  before_action :set_student, only: [:edit, :show, :update, :destroy]
 
   def index
     @students = Student.all
@@ -26,6 +26,12 @@ class StudentsController < ApplicationController
     @student.update(student_params)
 
     redirect_to student_path(@student)
+  end
+
+  def destroy
+    Student.destroy(params[:id])
+
+    redirect_to students_path
   end
 
   private
